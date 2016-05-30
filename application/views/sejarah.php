@@ -27,9 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </head>
 
 <body>
-
-    <div class="brand">SDN TANJUNG SANGALANG 1</div>
-    <div class="address-bar">KABUPATEN PULANG PISAU</div>
+    <img width="100%" src="<?php echo base_url(); ?>bootstrap/img/4.jpg"/>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
@@ -49,10 +47,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                     <a href="<?php echo base_url(); ?>">HOME</a>
+                     <a style="font-weight:bold;" href="<?php echo base_url(); ?>">HOME</a>
                     </li>
 				<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PROFIL<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-weight:bold;" >PROFIL<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">SEJARAH SEKOLAH</a></li>
                     <li><a href="#">VISI - MISI</a></li>
@@ -60,28 +58,28 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">GALERI<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-weight:bold;" >GALERI<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">BIODATA</a></li>
                     <li><a href="#">ALBUM</a></li>
                   </ul>
                 </li>
                 <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DOWNLOAD<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-weight:bold;" >DOWNLOAD<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">JADWAL PELAJARAN</a></li>
                     <li><a href="#">MATERI PELAJARAN</a></li>
                   </ul>
                 </li>
 				<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">PENGUMUMAN<span class="caret"></span></a>
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="font-weight:bold;" >PENGUMUMAN<span class="caret"></span></a>
                   <ul class="dropdown-menu">
                     <li><a href="#">PENERIMAAN SISWA BARU</a></li>
                     <li><a href="#">PENGUMUMAN SISWA LULUS</a></li>
                   </ul>
                 </li>
 					<li>
-                        <a href="donasi.php">DONASI</a>
+                        <a href="donasi.php" style="font-weight:bold;" >DONASI</a>
                     </li>
                 </ul>
             </div>
@@ -95,14 +93,12 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <div class="row">
             <div class="box">
                 <div class="col-lg-12 text-center">
-                    <div id="carousel-example-generic" class="carousel slide">
+                    <div id="carousel-example-generic" class="carousel slide ">
                         <!-- Indicators -->
-                        <ol class="carousel-indicators hidden-sm">
+                        <ol class="carousel-indicators hidden-xs">
                             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="3"></li>
-							<li data-target="#carousel-example-generic" data-slide-to="4"></li>
                         </ol>
 
                         <!-- Wrapper for slides -->
@@ -116,12 +112,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <div class="item">
                                 <img class="img-responsive img-full" src="<?php echo base_url(); ?>bootstrap/img/3.jpg" alt="">
                             </div>
-							<div class="item">
-                                <img class="img-responsive img-full" src="<?php echo base_url(); ?>bootstrap/img/4.jpg" alt="">
-                            </div>
-							<div class="item">
-                                <img class="img-responsive img-full" src="<?php echo base_url(); ?>bootstrap/img/5.jpg" alt="">
-                            </div>
                         </div>
 
                         <!-- Controls -->
@@ -132,11 +122,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             <span class="icon-next"></span>
                         </a>
                     </div>
-					
                     <h2 class="brand-before">
                         <small>SELAMAT DATANG</small>
                     </h2>
-                    <h1 class="brand-name">WEBSITE TANJUNG SANGALANG 1</h1>
+                    <h1 class="brand-name">SDN TANJUNG SANGALANG 1</h1>
+                    <hr class="tagline-divider">
                     
                 </div>
             </div>
